@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Work+Sans:wght@400;700;800&display=swap");
+
+* {
+  color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 42px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #153950 !important;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #153950 !important;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h5 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+
+  color: #69d5df !important;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 28px;
+
+  color: #69d5df !important;
+}
+
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+
+  text-align: center;
+}
+
+body {
+  margin: 32px 5px;
+  min-height: calc(100vh - 64px);
+
+  background: linear-gradient(
+    228.93deg,
+    #69d5df 29.21%,
+    #337aa2 72.93%,
+    #153950 121.45%
+  );
+}

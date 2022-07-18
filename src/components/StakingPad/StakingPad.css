@@ -1,0 +1,162 @@
+.pad-container {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.pad {
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+.pad img {
+  width: 100%;
+  height: 100%;
+}
+
+.pad-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px 0px 5px;
+}
+
+.pad-info p {
+  text-align: center;
+  color: #153950 !important;
+}
+
+.pad-info strong {
+  color: #153950 !important;
+}
+
+.pad-info button {
+  margin: 35px 0px;
+  border-radius: 30px;
+}
+
+.pad-action p {
+  text-align: left;
+  font-size: 16px;
+  color: #153950 !important;
+}
+
+.pad-action strong {
+  color: #153950 !important;
+}
+
+.pad-action button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  height: 52px;
+
+  color: #337aa2 !important;
+}
+
+.pad-action button.choosed,
+.pad-action button:hover {
+  background-color: #337aa2 !important;
+  color: white !important;
+}
+
+.pad-action button:focus {
+  box-shadow: none;
+}
+
+.nft-container > div {
+  background-size: 100% 100%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.nft-container > div > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  border: 5px solid #69d5df;
+  background: linear-gradient(
+    0deg,
+    rgba(51, 122, 162, 0.75),
+    rgba(51, 122, 162, 0.75)
+  );
+  border-radius: 5%;
+}
+
+.selected .checker {
+  position: absolute;
+  width: 40%;
+  height: auto;
+}
+
+.staked {
+  width: 100%;
+  border: 5px solid #69d5df;
+  background: linear-gradient(
+    0deg,
+    rgba(51, 122, 162, 0.75),
+    rgba(51, 122, 162, 0.75)
+  );
+  border-radius: 5%;
+}
+
+.staked > div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.staked > div > img {
+  width: 40%;
+  height: auto;
+}
+
+.staked h2 {
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+
+  color: #ffffff !important;
+}
+
+.staked p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  margin-bottom: 0px;
+
+  color: #9bf7ff !important;
+}
+
+@media (min-width: 992px) {
+  .pad img {
+    width: auto;
+  }
+
+  .pad-info {
+    padding: 20px 30px 0px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .staked h2 {
+    font-size: 19.0769px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .staked p {
+    font-size: 15.8974px;
+    line-height: 19px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+}

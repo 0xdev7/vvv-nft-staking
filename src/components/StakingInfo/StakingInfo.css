@@ -1,0 +1,48 @@
+.info > .row {
+  margin-top: 30px;
+}
+
+.info-card {
+  gap: 32px;
+}
+
+.info-card .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 16px;
+
+  background: rgba(51, 122, 162, 0.75);
+  border: 1px solid #4794c0;
+  box-shadow: 0px 0px 25px rgba(21, 57, 80, 0.18);
+  border-radius: 12px;
+}
+
+.info-card h4 {
+  margin-bottom: -10px;
+}
+
+.info-card p {
+  line-height: 20px;
+}
+
+.info-multi-card {
+  gap: 10px;
+}
+
+.info-multi-card .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+
+  background: rgba(51, 122, 162, 0.75);
+  border: 1px solid #4794c0;
+  box-shadow: 0px 0px 4px rgba(21, 57, 80, 0.25);
+  border-radius: 12px;
+}
+
+.info-multi-card p {
+  line-height: 20px;
+}
